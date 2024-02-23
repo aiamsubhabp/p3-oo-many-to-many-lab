@@ -86,7 +86,10 @@ class Contract:
     @classmethod
     def contracts_by_date(cls, date):
         return [contract for contract in cls.all if contract.date==date]
+    
+    # test
 
+print('hello')
 # SOMETHING ELSE FROM YOUTUBE... UNRELATED TO LAB
 
 # class Employee:
